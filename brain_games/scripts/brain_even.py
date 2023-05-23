@@ -32,16 +32,17 @@ def logic():
     DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
     print(DESCRIPTION)
     index = 0
+    raund = 3
 
-    while index < 3:
+    while index < raund:
         question, correct_answer = question_random_number()
         print(f'Question: {question}')
-        answer = prompt.string('Your answer: ')
+        user_answer = prompt.string('Your answer: ')
 
-        if answer == correct_answer:
+        if user_answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. "
+            print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.")
             print(f'Let\'s try again, {name}!')
             return
