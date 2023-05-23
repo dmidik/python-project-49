@@ -6,4 +6,7 @@
 
 
 asciinema:
+brain-even:
 https://asciinema.org/a/T9wH3hHKigviY9tytQmCU1OoC
+brain-calc:
+https://asciinema.org/a/Wts9O8jLT1QgcsjI7sD7Kl3XV
